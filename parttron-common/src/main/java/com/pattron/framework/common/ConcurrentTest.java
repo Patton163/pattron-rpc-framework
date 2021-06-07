@@ -16,6 +16,10 @@ import java.util.concurrent.Future;
 public class ConcurrentTest {
 
 
+    /**
+     * 加个注释测试
+     * @param args
+     */
     public static void main(String[] args) {
         List<Future<String>> futureList = new ArrayList<>();
         int culTime = 0;
